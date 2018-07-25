@@ -1,0 +1,434 @@
+
+body {
+color:#333;
+font:16px/22px helvetica,Arial,sans-serif;
+height:100%;
+padding:0;
+margin:0;
+background-color:#eeeeee;
+background: transparent url("/images/bg.jpg");
+}
+
+#banner {
+display: block;
+height: 100px;
+background-color:#E0ECFF;
+border-top--: 2px solid #fff;
+border-bottom--: 2px solid #eee;
+text-align: left;
+margin-top:0px;
+  }
+
+  #banner-content {
+    height: 100px;
+    position: relative;
+  }
+
+a {
+ color: #4c9f0f;
+ background-color: transparent;
+ text-decoration: none;
+}
+
+a:visited {
+ color: #4c9f0f;
+ background-color: transparent;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #fd6129;
+ text-decoration: none;
+ background-color: transparent;
+}
+
+/*	Page header containing the illustration, nav links, and logo
+---------------------------------------------------------------------*/
+
+
+#header_outer { 
+ clear: both;
+ margin: 0;
+ margin-top:40px;
+}
+#header_wrapper { 
+ margin: 0 auto;
+ width: 880px;
+ height:70px;
+ background-color:#ffffff;
+ padding-top:20px;
+ border-right:1px solid #c0c0c0; 
+border-left:1px solid #c0c0c0;
+ border-top:1px solid #c0c0c0; 
+}
+
+* html #header_wrapper  /* Box Model Hack for IE */
+{
+ width: 880px;
+ w\idth: 880px;
+}
+
+
+#header_left {
+ float: left;
+ width: 400px;
+ margin: 0;
+ padding: 2px 0px 0px 5px;
+ background-color:transparent;
+}
+#header_left a { 
+ color: #fd6129;
+ text-decoration: none; 
+}
+#header_left a:visited {
+ color: #fd6129;
+ text-decoration: none; 
+}
+#header_left a:hover {
+ color: #fff;
+ text-decoration: none; 
+}
+#header_right {
+ float: left;
+ color: #333;
+ text-color:#000;
+ width: 400px;
+ text-align: left;
+ margin: 0;
+ padding: 30px 0px 0px 0px;
+ background-color:transparent;
+}
+#sub_nav { 
+ margin-top: 56px;
+ text-align: center;
+}
+
+/*	Main content "wrappers" for the stuff between the header and footer
+---------------------------------------------------------------------*/
+#content_outer { 
+ clear: both;
+ margin: 0;
+ margin-top:30px;
+ margin-bottom:50px;
+}
+#content_wrapper{ 
+ margin: 0 auto;
+ width: 880px;
+ background-color:#ffffff;
+ border:1px solid #c0c0c0;
+ padding-bottom:0px;
+ margin-bottom:40px;
+
+}
+
+
+* html #content_wrapper  /* Box Model Hack for IE */
+{
+ width: 880px;
+ w\idth: 880px;
+}
+
+/*	Main message wrapper. This is where the big red message appears
+---------------------------------------------------------------------*/
+#main_message {
+
+}
+
+#header { 
+ width: 100%;
+ height:70px;
+ background-color:transparent;
+ padding-top:20px;
+}
+
+/*	Left/right columns containing the home page main content 
+---------------------------------------------------------------------*/
+#left_column_home { 
+ float: left;
+ color: #333;
+ margin: 0px 0px 0px 20px;
+ padding: 10px 0px 10px 0px;
+ width: 350px;
+}
+#right_column_home { 
+ float: left;
+ color: #4c1111;
+ border-left: 0px solid #000;
+ margin: 0 0px 20px 16px;
+ padding: 20px 0px 0px 20px;
+}
+
+/*	Full width column used on 404 page
+---------------------------------------------------------------------*/
+#full_column {
+ color: #333;
+ background-color:transparent;
+ margin: 0px 0px 20px 16px;
+ padding: 0 0 30px 0px;
+ width: 840px;
+}
+
+
+/*	Left/right columns containing the content on the
+	company and intranet pages
+---------------------------------------------------------------------*/
+#left_column_alt { 
+clear:both;
+ float: left;
+ color: #333;
+ margin: 0px 0px 0px 0px;
+ padding: 5px 10px 10px 20px;
+ width: 150px;
+}
+#right_column_alt { 
+ float: left;
+ color: #333;
+ background-color:transparent;
+ border-left: 2px dashed #eee; 
+ margin: 0;
+ padding: 5px 5px 30px 17px;
+ width: 600px;
+}
+
+/*	Footer
+---------------------------------------------------------------------*/
+#footer { 
+ border-top: 0px solid #c5c5c5; 
+ margin: 10px 0 20 0;
+ padding: 5px 0 0px 0;
+ clear: both;
+ background: transparent;
+ text-align:center;
+ color:#676767
+ font-size:14px;
+}
+
+/*	Bottom of page where logo and copyright message appears
+---------------------------------------------------------------------*/
+#bottom {
+ width:880px;
+ border-top: 1px solid #333; 
+ margin: 0pt 3px; 
+ padding: 4px;
+ text-align: center;
+ color: #333;
+ background:transparent;
+ padding: 20px 0 20px 0;
+}
+
+
+/*	Navigation links in the middle column of header.
+---------------------------------------------------------------------*/
+#header_nav_on {
+ padding: 0;
+ margin: 0;
+ font-weight: normal;
+ background: transparent url(/web/20150122001820/http://www.antarix.com/images/rarrow.gif) no-repeat center right;
+}
+ul#header_nav { 
+ margin: 9px 0 0 0; 
+ padding: 0;
+ list-style: none; 
+ font-size: 14px; 
+ font-variant:small-caps;
+}
+ul#header_nav li {
+ padding: 0 0 5px 0;
+ margin: 0;
+ color:#000;
+}		
+ul#header_nav a {
+ padding: 0 16px 0 0;
+ margin: 0;
+ color:#000;
+ background-color: transparent;
+ text-decoration: none;
+}
+ul#header_nav a:visited {
+ color:#000;
+ background-color: transparent;
+ text-decoration: none;
+}
+ul#header_nav a:hover {
+ color: #fd6129;
+ background-color: transparent;
+ text-decoration: none;
+ background: transparent url(/web/20150122001820/http://www.antarix.com/images/rarrow.gif) no-repeat center right;
+}
+
+/*	Navigation links in the footer
+---------------------------------------------------------------------*/
+#footer_nav_wrapper{
+margin-bottom: 25px;
+}
+.footer_nav_on {
+ padding: 0;
+ margin: 0;
+ background: transparent url(/web/20150122001820/http://www.antarix.com/images/footer-menu-on.gif) no-repeat bottom center;
+}
+ul#footer_nav {
+ margin: 0 0 0 16px; 
+ padding: 0; 
+ list-style: none; 
+ font-size: 12px;
+ background-color: transparent;
+}
+ul#footer_nav li {
+ float: left;
+ margin: 0 22px 0 0; 
+ padding: 0;
+}
+ul#footer_nav a { 
+ float: left; 
+ padding: 0 0 11px 0;
+ color: #000;
+ text-decoration: none; 
+}
+ul#footer_nav a:hover {
+ color: #fd6129;
+ background: transparent url(/web/20150122001820/http://www.antarix.com/images/footer-menu-on.gif) no-repeat bottom center;
+}
+
+/*	Navigation links in the left column on corporate info pages
+---------------------------------------------------------------------*/
+#left_column_nav_on {
+ font-weight: normal;
+ color: #fff; 
+ padding: 0;
+ margin: 0;
+color: #fd6129;
+}
+ul#left_column_nav { 
+ margin: 9px 0 0 0; 
+ padding: 0;
+ list-style: none; 
+ font-size: 18px;
+ text-align: left;
+}
+ul#left_column_nav li {
+ padding: 0 0 5px 0;
+ margin: 0;
+}		
+ul#left_column_nav a {
+ padding: 0 18px 0 10;
+ margin: 0;
+ background-color: transparent;
+ text-decoration: none;
+ color:#333333;
+
+}
+-ul#left_column_nav a:visited {
+ background-color: transparent;
+ text-decoration: none;
+
+}
+-ul#left_column_nav a:hover {
+color: #fd6129;
+ text-decoration: none;
+}
+
+
+
+/*	Styling Elements
+---------------------------------------------------------------------*/
+
+/* no image borders */
+img {
+border: 0;
+}
+
+		
+/*	Main page message*/
+h1 {
+ font-family: Arial, sans-serif;
+ font-size: 22px;
+ font-weight: 300;
+ color--:#cc6600;
+ color:#333333;
+ line-height:110%;
+ clear:both; 
+ margin: 7px 0px 7px 0px;
+}
+
+/*	Sub message with black text*/
+h2 {
+ font:18px/24px Arial,sans-serif;
+ font-weight: normal;
+ color: #cc6600;
+ margin: 15px 0px 0px 0px;
+}
+
+/*	Heading on internal pages */
+h3 {
+ font-family: Arial, sans-serif;
+ font-size: 18px;
+ font-weight: normal;
+ color: #cc6600;
+ margin: 7px 0px 0px 0px;
+}
+
+/*	Smaller heading on pages like "contact us" */
+h4 {
+ font-family: Arial, sans-serif;
+ font-size: 18px;
+ font-weight: normal;
+ margin: 7px 0px 0px 0px;
+ color:#c0c0c0;
+}
+
+/*	large home page banner text */
+h5 {
+ font:26px/30px Helvetica, Arial,sans-serif;
+ font-weight: 500;
+ margin: 7px 0px 10px 0px;
+ color:#555;
+ line-spacing:1.8;
+}
+
+
+
+/*light font for footer etc*/
+.small_light{
+ font-size: 11px;
+ color: #666;
+}
+
+/*small font*/
+.small_text{
+ font-size: 12px;
+}
+
+.highlight {
+ color:#990000;
+}
+
+/*	Form Elements
+---------------------------------------------------------------------*/
+.select {
+ background-color:  #fff;
+ font-family: Myriad, Helvetica, Arial, sans-serif;
+ font-weight: normal; 
+ font-size: 16px;
+ color: #000;
+ padding: 0 4px 0 2px;
+} 
+
+.input {
+ font-family: Lucida Grande, Verdana, Geneva, Sans-serif;
+ font-size: 12px;
+ color: #333;
+ width: 100%;
+ height: 2em;
+ padding: 0;
+ margin: 0;
+} 
+
+.textarea {
+ font-family: Lucida Grande, Verdana, Geneva, Sans-serif;
+ font-size: 12px;
+ color: #333;
+ border: 1px solid #B3B4BD;
+ width: 100%;
+ padding: 0;
+ margin: 0;
+}

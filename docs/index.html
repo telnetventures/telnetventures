@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Telnet Ventures</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+<!--
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+-->
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<!-- start Parse -->
+<script src="//www.parsecdn.com/js/parse-1.6.7.min.js"></script>
+
+<!-- start Mixpanel -->
+<script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+mixpanel.init("c9f1f5018226586b1cb42fc467a43a43");</script>
+<!-- end Mixpanel -->
+
+
+<style>
+
+header {
+    background-image: url('/images/bg.jpg');
+    background-position: bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+    header {
+        min-height: 100%;
+    }
+
+    header .header-content {
+        position: absolute;
+	top:50%;
+        padding: 20px 10px 10px 10px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+
+
+</style>
+
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand page-scroll" href="#page-top">Telnet</a>
+            </div>
+
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#page-top">Home</a>
+                    </li>
+                    <li>
+                        <a href="#products">Products</a>
+                    </li>
+                    <li>
+                        <a href="#investments">Investments</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="container header-content-inner" style="background:#87cefa;">
+		<!-- <img src="img/logow.png" class="hidden-xs" style="max-width: 100% !important;"> -->
+
+                <h2 class="main-heading">Product Studio</h2>
+		<br>
+
+            <div class="row">
+
+                <div class="col-lg-2 col-md-2 col-sm-1"></div>
+
+                <div class="col-lg-8 col-md-8 col-sm-10 text-center">
+
+	  		<h6 class="lead">Building for the new India</p>
+
+
+	  		<p style="color:#333;">We build products around our thesis of a Connected & Consumption society. Some of our product ventures are internal while others are in partnership with smart founders like yourselves.</p>
+
+		</div>
+
+                <div class="col-lg-2 col-md-2 col-sm-1"></div>
+
+	    </div>
+
+
+
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <section id="products" class="text-center">
+
+
+        <div class="container">
+
+	  <h2 class="section-title">Products</h2>
+
+            <div class="row">
+
+                <div class="col-lg-2 col-md-2 col-sm-1"></div>
+
+                <div class="col-lg-8 col-md-8 col-sm-10 text-center">
+
+	  			  <p class="lead"></p>
+
+
+		</div>
+
+                <div class="col-lg-2 col-md-2 col-sm-1"></div>
+
+	    </div>
+
+		<div class="row">
+			  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center logo-container">
+			 	<a href="http://www.torchsight.com/"><img src= "images/torchsight.png" --data-src="holder.js/200x200/auto/#eee:#000/text:Torch" class="logo-product --img-circle" alt="Google Analytics for Offline World"></a>
+				<h3>Torchsight</h3>
+				<p>Google Analytics for the Offline World</p>
+			  </div>
+			  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center logo-container">
+				<a href="http://www.savvyings.com/"><img src= "images/shortfall.png"  --data-src="holder.js/200x200/auto/#eee:#000/text:Savvy" class="logo-product --img-circle" ></a>
+				<h3>Savvy</h3>
+				<p>Automated savings</p>
+			  </div>
+			  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center logo-container">
+				<a href="http://www.squareplums.com/"><img src= "images/squareplums.png"  --data-src="holder.js/200x200/auto/#eee:#000/text:Shortfall" class="logo-product --img-circle" ></a>
+				<h3>Square Plums</h3>
+				<p>Luxurious shared accomodations for bachelors</p>
+			  </div>
+
+		</div>
+
+
+        </div> <!--container-->
+  </section>
+
+
+
+
+
+
+    <section id="investments" class="text-center">
+
+
+        <div class="container">
+
+	  <h2 class="section-title">Investments</h2>
+
+            <div class="row">
+
+                <div class="col-lg-2 col-md-2 col-sm-1"></div>
+
+                <div class="col-lg-8 col-md-8 col-sm-10 text-center">
+
+	  			  <p class="lead">We also make seed investments in interesting startups that we come across. Some of our investments are below.<!-- <a href="www.indianangelnetwork.com">Indian Angel Network</a>, <a href="www.angel.co">AngelList</a> and <a href="www.letsventure.com">LetsVenture</a>.--></p>
+
+		</div>
+
+                <div class="col-lg-2 col-md-2 col-sm-1"></div>
+
+	    </div>
+
+		<div class="row">
+			  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center">
+			 <a href="https://angel.co/sapience-analytics">
+			   <div class="inv-container">
+			     <div class="inv-logo-container">	
+				<img src= "images/inv/sapience.jpg" class="logo-inv --img-circle" alt="Self Quantification for work">
+			     </div>	
+				<h4>Sapience Analytics</h4>
+				<p>Self Quantification for work</p>
+			</a>
+			   </div>
+			  </div>
+
+			  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center">
+			<a href="https://angel.co/adpushup">
+			   <div class="inv-container">
+			     <div class="inv-logo-container">
+				<img src= "images/inv/adpushup.jpg" class="logo-inv --img-circle" >	
+			     </div>	
+				<h4>AdPushup</h4>
+				<p>Ad Revenue Optimization for Web Publishers</p>
+			   </div>
+			</a>
+			  </div>
+
+
+			  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center">
+			<a href="https://angel.co/jobspiretech">
+			   <div class="inv-container">
+			     <div class="inv-logo-container">	
+				<img src= "images/inv/jobspire.jpg" class="logo-inv --img-circle" >
+			     </div>	
+				<h4>Jobspire</h4>
+				<p>Visual, location-based job search for India</p>
+			   </div>
+			</a>
+			  </div>
+
+
+			  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center">
+			<a href="https://angel.co/kwench-global-technologies">
+			   <div class="inv-container">
+			     <div class="inv-logo-container">	
+				<img src= "images/inv/kwench.jpg" class="logo-inv --img-circle" >
+			     </div>	
+				<h4>Kwench</h4>
+				<p>Employee Engagement Redefined</p>
+			   </div>
+			</a>
+			  </div>
+
+
+			  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center">
+			<a href="https://angel.co/prettysecrets">
+			   <div class="inv-container">
+			     <div class="inv-logo-container">	
+				<img src= "images/inv/ps.jpg" class="logo-inv --img-circle" >
+			     </div>	
+				<h4>Prettysecrets</h4>
+				<p>Victoria's Secret for India</p>
+			   </div>
+			</a>
+			  </div>
+
+			  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center">
+			<a href="https://angel.co/retargeter">
+			   <div class="inv-container">
+			     <div class="inv-logo-container">	
+				<img src= "images/inv/retargeter.png" class="logo-inv --img-circle" >
+			     </div>
+				<h4>Retargeter</h4>
+				<p>Making targeted display advertising easy and effective!</p>
+			   </div>
+			</a>
+			  </div>
+
+			  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center">
+			<a href="https://angel.co/apptimize">
+			   <div class="inv-container">
+			     <div class="inv-logo-container">	
+				<img src= "images/inv/apptimize.jpg" class="logo-inv --img-circle" >
+			     </div>
+				<h4>Apptimize</h4>
+				<p>A/B testing for Apps</p>
+			   </div>
+			</a>
+			  </div>
+
+
+			  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center">
+			<a href="https://angel.co/sqwiggle">
+			   <div class="inv-container">
+			     <div class="inv-logo-container">	
+				<img src= "images/inv/sqwiggle.png" class="logo-inv --img-circle" >
+			     </div>
+				<h4>Sqwiggle</h4>
+				<p>Remote working, made awesome</p>
+			   </div>
+			</a>
+			  </div>
+
+			  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center">
+			<a href="https://angel.co/idonethis">
+			   <div class="inv-container">
+			     <div class="inv-logo-container">	
+				<img src= "images/inv/idonethis.png" class="logo-inv --img-circle" >
+			     </div>
+				<h4>iDoneThis</h4>
+				<p>LinkedIn for the Enterprise</p>
+			   </div>
+			</a>
+			  </div>
+
+			  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center">
+			<a href="https://www.wowmomo.com">
+			   <div class="inv-container">
+			     <div class="inv-logo-container">	
+				<img src= "images/inv/wowmomo.jpg" class="logo-inv --img-circle" >
+			     </div>
+				<h4>Wow Momo!</h4>
+				<p>Food QSR</p>
+			   </div>
+			</a>
+			  </div>
+
+			  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center">
+			<a href="http://vayavyalabs.com/">
+			   <div class="inv-container">
+			     <div class="inv-logo-container">	
+				<img src= "images/inv/startup.png" class="logo-inv --img-circle">
+			     </div>
+				<h4>Vayavya Labs</h4>
+				<p>Semiconductor, System Design</p>
+			   </div>
+			</a>
+			  </div>
+
+
+			  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 text-center">
+			<a href="https://angel.co/sightly">
+			   <div class="inv-container">
+			     <div class="inv-logo-container">	
+				<img src= "images/inv/sightly.jpg" class="logo-inv --img-circle" >
+			     </div>
+				<h4>Sightly</h4>
+				<p>Personalized, micro-targeted video advertising platform</p>
+			   </div>
+			</a>
+			  </div>
+
+		</div>
+
+
+        </div> <!--container-->
+  </section>
+
+
+
+
+    <section id="contact" class="text-center">
+        <div class="container">
+
+
+	  <h2 class="section-title">Contact</h2>
+
+
+		<div id="block1" class="show">
+
+
+		    <div class="row">
+
+		        <div class="col-lg-2 col-md-2 col-sm-1"></div>
+
+		        <div class="col-lg-8 col-md-8 col-sm-10 text-center">
+
+		  			  <p class="lead">Drop us a line at contact@telnetventures.com</p>
+
+			We are based in HSR Layout, Bangalore.
+			<br><br>
+
+			<iframe
+			  width="90%"
+			  height="400px"
+			  frameborder="0" style="border:0"
+			  src="https://www.google.com/maps/embed/v1/search?key=AIzaSyCaKzjGMXNT63VPC5U6qD1Rv5oEkgYccM0&q=27th+Main+HSR_Layout+Bangalore" allowfullscreen>
+			</iframe>
+
+			</div>
+
+		        <div class="col-lg-2 col-md-2 col-sm-1"></div>
+
+		    </div>
+
+
+
+                    <hr class="light">
+
+
+
+
+
+        </div>
+    </section>
+
+    <aside id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p style="font-weight:100">&copy; 2015 Telnet Ventures LLP<br>HSR, Bangalore & Powai, Mumbai</p>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/validator.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+    <script>
+
+
+	$('#frm').validator();
+
+	var tmplFormPostThanksMsg1 = '<h2>Thank you <span style="text-transform:capitalize;"><strong>';
+	var tmplFormPostThanksMsg2 = '</strong></span></h2><p class="lead">We have added you to the queue and will contact you shortly.</p>';
+
+
+	function isEmail(email) {
+	  var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+	  return regex.test(email);
+	}
+
+
+	function isMobileNumber(phone) {
+	  var regex = /^[7-9][0-9]{9}$/;
+	  return regex.test(phone);
+	}
+
+
+	$('#frm').validator().on('submit', function (e) {
+	  if (e.isDefaultPrevented()) {
+	    console.log ('handle the invalid form...');
+	  } else {
+	    e.preventDefault();
+	    console.log ('everything looks good!');
+	    addToList ($("#userName").val() , $("#employer").val() , $("#emailAddress").val() , $("#phoneNumber").val() , function (uname) {
+	   	//window.location.replace("/thanks");
+	        $("#block1").removeClass("show").addClass("hide");
+		$("#block2").removeClass("hide").addClass("show")
+	        $("#block2").html(uname ? (tmplFormPostThanksMsg1 + uname + tmplFormPostThanksMsg2) : (tmplFormPostThanksMsg1 + tmplFormPostThanksMsg2) );
+      	        mixpanel.track("registered_successfully");
+	    });
+
+	  }
+	})
+
+
+/*
+	$("#--submitBtn").click(function() {
+  	  console.log ( "...in handler.....email hav value = " + $("#emailAddress").val() + "  , validation: " + isEmail ($("#emailAddress").val() ) );
+
+	  if ( $("#emailAddress").val() !== "" ) {
+
+	    if (isEmail ($("#emailAddress").val() ) == true) {
+		console.log ("email good");
+		addToList ($("#emailAddress").val() , $("#phoneNumber").val() );
+		$("#block1").removeClass("show").addClass("hide");
+		//$("#block2").removeClass("hide").addClass("show");
+		mixpanel.track("registered_successfully");
+	     }
+ 	   else {
+		$("#emailAddress").parent().addClass ("has-error");
+	   }
+	  }
+	});
+*/
+
+	//initialize parse
+	Parse.initialize("YRNL2ZCKY6LX9Lqh8NuM3qn4MLdfUNUZUlZlz7FW", "xUnq2WfiBWRZI4ExuCUjxhlAstWAAlrEemhFM4od");
+	mixpanel.track("email-register");
+
+	var obj = null;
+
+
+       function addToList(uname , employer, email, phone, callback) {
+         var AlphaListObject = Parse.Object.extend("alphalist");
+         var alphaObject = new AlphaListObject();
+         alphaObject.save({ name : uname , employer : employer , email: email, phone : phone}).then(function(object) {
+           console.log("added record to alphalist");
+	   callback (uname);
+         });
+      }
+
+
+    </script>
+
+
+<script>
+
+
+/*
+$(document).ready(function(){
+  $('.team').popover({ 
+    html : true,    
+	content: function() {
+      return $($(this).attr('data-id')).html();
+    }
+  });
+});
+*/
+  $('.team').popover({
+        html: true,
+        trigger: 'manual'
+    }).on('click', function(e) {
+        // if any other popovers are visible, hide them
+        if(isVisible) {
+            hideAllPopovers();
+        }
+
+        $(this).popover('show');
+
+        // handle clicking on the popover itself
+        $('.popover').off('click').on('click', function(e) {
+            e.stopPropagation(); // prevent event for bubbling up => will not get caught with document.onclick
+        });
+
+        isVisible = true;
+        e.stopPropagation();
+    });
+
+$('a.team').on('click', function(e) {e.preventDefault(); console.log ('clicked'); return true;});
+
+    var isVisible = false;
+
+    var hideAllPopovers = function() {
+       $('.team').each(function() {
+            $(this).popover('destroy');
+        });  
+    };
+
+
+$('#hemant').popover({html : true, content : "Founder of Square Plums. Co-founder &amp; CTO at ITFinity (1999-2009). Citicorp Software (1998-1999).<p><p><a href='http://in.linkedin.com/in/hemantattray'>More..</a>" , title: "<strong>Hemant Attray</strong><br>Square Plums"});
+
+$('#anup').popover({html : true, content : "PrivyTV (2012-13), LeapSky (2010-12), OnMobile (2007-2010), ITFinity (2004-2007), Mobile2Win (2002-2004)<p><p><a href='http://in.linkedin.com/in/anupbalagopal'>More..</a>" , title : "<strong>Anup Balagopal</strong><br>Torchsight"});
+
+$('#nagesh').popover({html : true, content : "Co-Founded ITFinity (2001-2008), acquired by OnMobile. Hughes Networks (1999-2001)<p><p><a href='http://in.linkedin.com/in/nagrao'>More..</a>" , title : "<strong>Nagesh Rao</strong><br>Shortfall"});
+
+$('#brijesh').popover({html : true, content : "OnMobile (2007-2009). Founding team and Lead Developer at ITFinity (1999-2006)<p><p><a href='http://in.linkedin.com/pub/brijesh-gajaria/14/37/4b4'>More..</a>" , title : "<strong>Brijesh Gajaria</strong><br>Torchsight"});
+
+$('#krishna').popover({html : true, content : "Co-founded ITFinity (1999-2009). Angel Investor & Entrepreneur<p><p><a href='http://in.linkedin.com/in/krishnajha'>More..</a>" , title : "<strong>Kishna Jha</strong><br>Business"});
+
+</script>	
+
+</body>
+
+</html>
