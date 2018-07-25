@@ -11,7 +11,9 @@ body {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans'; 
+    font-weight: 100; 
+    font-style: normal;
 }
 
 hr {
@@ -54,10 +56,11 @@ h6 {
 .main-heading {
     margin-bottom: 20px;
     padding-top: 20px;
-    font-weight: 600;
+    font-weight: 800;
+    font-style: italic;
     color:#333;
     font-size:px;
-    text-transform:uppercase;
+    text-transform:;
 }
 
 
@@ -75,7 +78,7 @@ margin: 0 0 10px
     margin-bottom: 36px;
     margin-top:10px;
     font-weight: 300;
-    line-height: 1.4;
+    line-height: 1.5;
     background:transparent;
     color:#333
 }
@@ -128,7 +131,7 @@ section {
 }
 
 .inv-container h4 {
-    	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	font-size:14px;
 	text-transform:uppercase;
 }
@@ -145,7 +148,7 @@ section {
 
 
 
-.inv-container img {
+.inv-container .inv-logo-container img {
 	vertical-align:bottom;
 }
 
@@ -153,8 +156,11 @@ section {
 	height:200px;
 	text-align:center;
 	vertical-align:bottom;
-	background:#fff;
+	background:transparent;
+    padding-top:auto;
+    padding-bottom:0;
 }
+
 
 
 .profile-container {
@@ -185,7 +191,7 @@ section {
 }
 
 .logo-container h3 {
-    	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	font-size:16px;
 	text-transform:uppercase;
 }
@@ -208,6 +214,13 @@ section {
     border-bottom: 1px solid #e5e5e5;
     min-height:100%;
 }
+
+#team a:link
+{
+    text-decoration: none;
+    color:#f05f40;
+}
+
 
 #products {
     --background-color: #C6D4E1;
@@ -308,7 +321,7 @@ header .header-content {
     .navbar-default {
         border-color: rgba(255,255,255,0);
         background-color: transparent;
-	--background-color: rgb(59, 120, 231);
+	   --background-color: rgb(59, 120, 231);
     }
 
     .navbar-default .navbar-header .navbar-brand {
